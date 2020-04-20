@@ -1,9 +1,8 @@
 import React from 'react';
 import './App.css';
-import NavBar from './components/NavBar';
+import NavMain from './components/NavMain';
 import Home from './components/Home/Home';
 import Mars from './components/Mars/Mars';
-import axios from 'axios';
 
 export const generalUrl = 'https://api.nasa.gov/';
 export const api_key = 'U4loW7nqQ73uKAXebVYyxUtAsnaN2aeGuZkejSKi';
@@ -11,7 +10,7 @@ export const api_key = 'U4loW7nqQ73uKAXebVYyxUtAsnaN2aeGuZkejSKi';
 function App() {
   return (
     <div className='App'>
-      <NavBar />
+      <NavMain />
       <Home />
       {/* <Mars /> */}
     </div>

@@ -1,13 +1,17 @@
 import React from 'react';
+import { Nav, NavItem, NavLink } from 'reactstrap';
 
 function LinksComponent() {
   return (
     <div>
-      <ul>
-        <li>Home</li>
-        <li>Mars</li>
-        <li></li>
-      </ul>
+      <Nav>
+        <NavItem>
+          <NavLink>Home</NavLink>
+        </NavItem>
+        <NavItem>
+          <NavLink>Mars</NavLink>
+        </NavItem>
+      </Nav>
     </div>
   );
 }
